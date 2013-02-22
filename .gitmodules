@@ -1,0 +1,3 @@
+[submodule "autopagerize"]
+	path = autopagerize
+	url = git://github.com/swdyh/autopagerize_for_firefox.git

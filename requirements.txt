@@ -1,0 +1,5 @@
+Flask>=0.9
+lettuce>=0.2.14
+lettuce-webdriver>=0.2.1
+nose>=1.2.1
+selenium>=2.30.0
