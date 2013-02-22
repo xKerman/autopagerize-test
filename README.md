@@ -1,3 +1,3 @@
 # autopagerize-test
 
-test script for AutoPagerize firefox extension
+test script for [AutoPagerize](https://github.com/swdyh/autopagerize_for_firefox) Firefox extension
