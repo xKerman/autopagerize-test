@@ -8,7 +8,7 @@ pushd $REPO_NAME
 git pull origin master
 popd
 curl -L -o $ADDON_SDK_NAME $ADDON_SDK_URL
-unzip $ADDON_SDK_NAME
+unzip -q $ADDON_SDK_NAME
 pushd $(ls -d addon-sdk-* | head -n 1)
 source bin/activate
 popd
