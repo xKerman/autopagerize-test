@@ -1,5 +1,11 @@
+{% if is_xhtml -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+{%- else -%}
 <!DOCTYPE html>
 <html>
+{%- endif %}
   <head>
     <title>AutoPagerize Test</title>
   </head>
@@ -8,7 +14,7 @@
       <h1>test page num: {{ page_num }}</h1>
       <img src="{{ url_for('static', filename='autopagerize.jpg') }}" alt="autopagerize leaflet" />
       <p>
-        &copy;
+        &#169;
         <a href="http://www.flickr.com/photos/clothfairy/">clothfairy</a>
         2009,
         <a href="http://www.flickr.com/photos/clothfairy/4124648286/in/photostream/">
