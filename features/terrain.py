@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from lettuce import after, before, world
-from selenium import webdriver
 import lettuce_webdriver.webdriver
+from selenium import webdriver
 
 
 @before.all

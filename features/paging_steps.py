@@ -3,7 +3,7 @@
 
 import urllib2
 
-from lettuce import *
+from lettuce import step, world
 from nose.tools import assert_equals
 
 

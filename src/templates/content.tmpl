@@ -1,0 +1,25 @@
+<div class="autopagerize_page_element">
+  <h1>test page num: {{ page_num }}</h1>
+  <img src="{{ url_for('static', filename='autopagerize.jpg') }}" alt="autopagerize leaflet" />
+  <p>
+    &#169;
+    <a href="http://www.flickr.com/photos/clothfairy/">clothfairy</a>
+    2009,
+    <a href="http://www.flickr.com/photos/clothfairy/4124648286/in/photostream/">
+      AutoPagerize leaflet
+    </a>
+  </p>
+  <p>
+    <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="{{ url_for('static', filename='88x31.png') }}" />
+    </a>
+    <br />
+    This work is licensed under a
+    <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">
+      Creative Commons Attribution 2.0 Generic License
+    </a>.
+  </p>
+</div>
+<div>
+  <a rel="next" href="{{ next_page }}">next</a>
+</div>
