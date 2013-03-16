@@ -14,8 +14,12 @@ Feature: Paging
       And I should see "test page num: 2" within 5 seconds
 
   Examples:
-    | url                             | content_type          |
-    | http://localhost:5000/html5/    | text/html             |
-    | http://localhost:5000/xhtml5/   | application/xhtml+xml |
-    | http://localhost:5000/html4.01/ | text/html             |
-    | http://localhost:5000/xhtml1.1/ | application/xhtml+xml |
+    | url                                   | content_type          |
+    | http://localhost:5000/html5/normal    | text/html             |
+    | http://localhost:5000/xhtml5/normal   | application/xhtml+xml |
+    | http://localhost:5000/html4.01/normal | text/html             |
+    | http://localhost:5000/xhtml1.1/normal | application/xhtml+xml |
+    | http://localhost:5000/html5/tr        | text/html             |
+    | http://localhost:5000/xhtml5/tr       | application/xhtml+xml |
+    | http://localhost:5000/html4.01/tr     | text/html             |
+    | http://localhost:5000/xhtml1.1/tr     | application/xhtml+xml |
